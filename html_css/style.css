@@ -1,0 +1,71 @@
+body {
+    background-color: lightgreen;
+    font-family: Helvetica;
+    max-width: 900px;
+    margin: auto;
+}
+
+.photo_top {
+    border: 3px solid green;
+    border-radius: 50px;
+}
+
+
+
+#title, .subtitle, .post_title {
+    color: green;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line;
+    color: rgb(3, 82, 20);
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+    border: 3px solid green;
+    margin-bottom: 15px;
+    border-radius: 25px;
+
+}
+
+.post_content {
+    margin: 0;
+    border: 3px solid green;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 3px solid green;
+    width: 100%;
+}
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact_list li a {
+    list-style-image: url("logo-palmeiras.png");
+    color: green;
+    text-decoration: none;
+     
+}
