@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos align self</title>
+
+    <style>
+        .flex-container{
+            max-width: 350px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            display: flex;
+            
+
+        }
+
+        .items{
+            background-color: green;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+            
+        }
+
+        .align-container{
+            align-items: center;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: baseline;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+
+        .direction{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h1>row</h1>
+    <section class="flex-container align-container">
+        <div class="items auto">ALOU</div>
+        <div class="items auto">CHARLES</div>
+        <div class="items auto">sapeco grosso sapeco grosso sapeco grosso</div>
+        <div class="items auto">BANZAI</div>
+    </section>
+
+    <section class="flex-container">
+        <div class="items stretch">ALOU</div>
+        <div class="items start">CHARLES</div>
+        <div class="items auto">sapeco grosso sapeco grosso sapeco grosso</div>
+        <div class="items end">BANZAI</div>
+    </section>
+
+    <section class="flex-container">
+        <div class="items center">ALOU</div>
+        <div class="items start">CHARLES</div>
+        <div class="items auto">sapeco grosso sapeco grosso sapeco grosso</div>
+        <div class="items end">BANZAIiiiii</div>
+    </section>
+
+    <h1>column</h1>
+    <section class="flex-container align-container direction">
+        <div class="items auto">ALOU</div>
+        <div class="items auto">CHARLES</div>
+        <div class="items auto">sapeco grosso sapeco grosso sapeco grosso</div>
+        <div class="items auto">BANZAI</div>
+    </section>
+
+    <section class="flex-container direction">
+        <div class="items stretch">ALOU</div>
+        <div class="items start">CHARLES</div>
+        <div class="items auto">sapeco grosso sapeco grosso sapeco grosso</div>
+        <div class="items end">BANZAI</div>
+    </section>
+
+    <section class="flex-container direction">
+        <div class="items center">ALOU</div>
+        <div class="items start">CHARLES</div>
+        <div class="items auto">sapeco grosso sapeco grosso sapeco grosso</div>
+        <div class="items end">BANZAIiiiii</div>
+    </section>
+    
+</body>
+</html>
