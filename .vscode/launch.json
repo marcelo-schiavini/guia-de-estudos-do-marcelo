@@ -5,6 +5,12 @@
             "name": "http://127.0.0.1:3000/FLEXBOX/display_flez.html",
             "request": "launch",
             "url": "http://127.0.0.1:3000/FLEXBOX/display_flez.html"
+        },
+        {
+            "type": "pwa-chrome",
+            "name": "http://127.0.0.1:3000/Recriando Pg Instagram/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/Recriando Pg Instagram/index.html"
         }
     ]
 }
